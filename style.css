@@ -1,0 +1,485 @@
+
+body
+{
+	font-family: 'Varela Round', sans-serif !important;
+	font-size: 13px;
+}
+
+.navbar-hidden{
+  display: none;
+}
+
+#billing-bck{
+	background-image: url("images/hblur.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	width: auto;
+}
+
+#farmerreg-bck{
+	background-image: url("images/helpdesk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	width: auto;
+}
+
+#farmersearch-bck{
+	background-image: url("images/1282794.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	width: auto;
+}
+
+::placeholder
+{
+	font-size: 13px !important;
+	color: #4a4a48 !important;
+}
+
+
+.login-img{
+	position: relative;
+	padding: 1rem;
+	background: linear-gradient(-45deg, #4481eb, #04befe);
+	border-bottom-right-radius: 500px !important;
+	height: 665px;
+}
+
+.login-back{
+	margin-top: 80px;
+	height: 400px;
+	width: 400px;
+}
+
+.login-background
+{
+	height: auto;
+	width: auto;
+	padding: 100px 165px !important;
+}
+
+.login-reg{
+	margin-top: 40px !important;
+	margin-left: -30px;
+}
+
+.login-image{
+	height: 150px;
+	width: 150px;
+}
+
+.signup-img{
+	position: relative;
+	background-color: #00b74a;
+	border-bottom-left-radius: 500px !important;
+	height: 665px;
+	padding-left: 100px !important;
+}
+
+.signup-back{
+	margin-top: 100px;
+	height: 270px;
+	width: 270px;
+}
+
+.signup-reg{
+	margin-top: 30px !important;
+	margin-left: -30px;
+}
+
+.signup-background
+{
+	height: auto;
+	width: auto;
+	padding: 50px 165px !important;
+}
+
+.signup-image{
+	height: 120px;
+	width: 120px;
+}
+
+.signup-login-btn{
+    margin-bottom: 20px;
+}
+
+.register-background
+{
+	background-color: white;
+	height: auto;
+	width: auto;
+	margin: 40px 30px 0px 30px;
+	padding: 24px 70px 33px 70px;
+	box-shadow:0px 0px 10px 5px #75cfb8;
+	border-radius: 0px;
+}
+
+.fsearch-background
+{
+	background-color: white;
+	height: auto;
+	width: auto;
+	margin: 90px 30px 114px 30px !important;
+	padding: 25px 60px 20px 60px;
+	box-shadow:0px 0px 10px 5px #ffdcdc;
+	border-radius: 0px;
+}
+
+.fbill-background
+{
+	background-color: white;
+	height: auto;
+	width: 600px;
+	margin: 90px 30px 114px 30px !important;
+	padding: 25px 60px 20px 60px;
+	box-shadow:0px 0px 10px 5px #ffdcdc;
+	border-radius: 0px;
+}
+
+.fregister-background
+{
+	background-color: white;
+	height: auto;
+	width: auto;
+	margin: 100px 30px 50px 30px;
+	padding: 30px 70px 50px 70px;
+	box-shadow:0px 0px 10px 5px #00917c;
+	border-radius: 0px;
+}
+
+.billing-background
+{
+	background-color: white;
+	height: auto;
+	width: 700px;
+	margin: 100px 30px 0px 30px;
+	padding: 30px 50px 50px 50px;
+	box-shadow:0px 0px 10px 5px #c1a1d3;
+	border-radius: 0px;
+}
+
+.farmerlist{
+	padding: 130px 0px 130px 0px !important;
+}
+
+.billinglist{
+	padding: 100px 30px 100px 30px !important;
+}
+
+.billinglist-note{
+	text-align: right !important;
+}
+
+.login-borders{
+	border: 1px solid #929aab;
+	background-color: #474a56;
+	color: #ffffff;
+}
+
+.login-border{
+	border: 1px solid #929aab;
+}
+
+.br-0{
+	border-radius: 0px !important;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+#myDiv {
+  animation: mymove 20s infinite;
+}
+
+@keyframes mymove {
+  0% {background-color: #000000;}
+  25% {background-color: #f2ead3;}
+  50% {background-color: #f67280;}
+  75% {background-color: #cdeeaa;}
+  100% {background-color: #317ae1;}
+}
+
+
+.farmerlisttable{
+	margin-top: 100px !important;
+	margin-bottom: 100px !important;
+}
+
+.nav-item-m{
+	margin-left: 3rem !important;
+}
+
+.navbar-bg{
+	background-color: rgba(0,0,0,0.9);
+	color: white !important;
+	font-size: 15px;
+}
+
+.footer-bg{
+	background-color: rgba(0,0,0,1);
+	color: white !important;
+	font-size: 15px;
+	padding: 20px 0px 20px 0px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("images/down-arrow.png") white no-repeat 96% !important;
+    font-size: 16px !important;
+}
+
+.alert{
+	padding: 6px 14px !important;
+	font-size: 13px !important;
+	margin-top: -16px;
+	border-radius: 0px !important;
+}
+
+.alert-dismissible .close {
+    position: absolute;
+    top: -9px;
+    right: -10px;
+    padding: .75rem 1.25rem;
+    color: inherit;
+    font-size: 22px;
+}
+
+thead{
+	font-size: 15px;
+	background-color: #222831;
+	color: #ffffff;
+}
+
+tfoot{
+	font-size: 15px !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: .5em;
+    display: inline-block;
+    width: auto;
+    border-radius: 0px;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    width: auto;
+    display: inline-block;
+    border-radius: 0px;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+    border: ;
+    border-radius: 0px;
+}
+
+.form-control.form-control-sm {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+}
+
+
+.btn-block + .btn-block {
+    margin-top: 0px !important;
+}
+
+.table{
+	font-size: 14px !important;
+}
+
+.form-control{
+	font-size: 18px !important;
+}
+
+.input-group > .form-control {
+    height: calc(2.08rem + 10px) !important;
+}
+
+.btn {
+    font-size: 14px !important;
+}
+
+table.dataTable tbody td {
+  border-bottom: 1px solid #dee2e6 !important;
+  padding: 10px !important;
+}
+
+table.dataTable thead th {
+  padding: 11px 30px !important;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 15px 0px !important;
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+
+.page-item .page-link {
+    padding: 8px 17px !important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: inherit !important;
+    z-index: 1000;
+    display: none;
+    min-width: 7rem !important;
+    padding: 0px !important;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0px !important;
+    font-size: 16px !important;
+}
+
+button.dt-button, div.dt-button, a.dt-button, input.dt-button {
+    margin-right: 1rem !important;
+    margin-top: 1em !important; 
+    margin-bottom: 30px !important; 
+    padding: 4px 2em !important;
+    border-radius: 0px !important;
+    font-size: 14px !important;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: .85em;
+    margin: 0px 0px -45px 0px !important;
+}
+
+@media (max-width: 512px){
+	.btn-size{
+		text-align: center;
+	}
+
+	.radiobtn {
+		display: block;
+		position: relative;
+		padding-left: 35px;
+		margin-bottom: 12px;
+		cursor: pointer;
+		font-size: 15px;
+		margin-left: 0px !important;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	.fsearch-background
+	{
+		background-color: white;
+		height: auto;
+		width: 400px !important;
+		margin: 80px 30px 0px 30px;
+		padding: 30px 43px 40px 43px;
+		box-shadow:0px 0px 10px 5px #ffdcdc;
+		border-radius: 0px;
+	}
+	.nav-item-m{
+		margin-left: 0rem !important;
+	}
+
+	.billinglist-note{
+		text-align: center !important;
+	}
+
+	div.dataTables_wrapper div.dataTables_info {
+	    padding-top: .85em;
+	    margin: 0px !important;
+	}
+
+	.loimg{
+		position: relative;
+		padding: 1rem;
+		background: linear-gradient(-45deg, #4481eb, #04befe);
+		border-bottom-right-radius: 500px !important;
+		border-bottom-left-radius: 500px !important;
+		height: 200px;
+	}
+
+	.logback{
+		height: 150px;
+		width: 150px;
+	}
+}
+
+@media (max-width: 767px){
+
+	.login-background{
+		height: auto;
+		width: auto;
+		padding: 50px !important;
+	}
+
+	.login-img{
+		position: relative;
+		padding: 1rem;
+		background: linear-gradient(-45deg, #4481eb, #04befe);
+		border-bottom-right-radius: 500px !important;
+		border-bottom-left-radius: 500px !important;
+		height: 190px;
+	}
+
+	.login-back{
+		margin-top: 0px;
+		height: 150px;
+		width: 150px;
+	}
+
+	.login-reg{
+		margin-top: 0px !important;
+		margin-left: 0px;
+	}
+
+	.login-image{
+		height: 100px;
+		width: 100px;
+	}
+
+	.signup-img{
+		position: relative;
+		padding: 0px !important;
+		background-color: #F9A826;
+		border-bottom-left-radius: 0px !important;
+		border-top-right-radius: 500px !important;
+		border-top-left-radius: 500px !important;
+		height: 247px;
+	}
+
+	.signup-reg{
+		margin-top: 0px !important;
+		position: relative;
+	    top: -160px;
+	    margin-left: 0px;
+	}
+
+	.signup-back{
+		margin-top: 80px;
+		height: 150px;
+		width: 150px;
+		margin-bottom: -79px;
+	}
+
+	.signup-login-btn{
+	    margin-bottom: 15px;
+	}
+
+	.signup-background{
+		height: auto;
+		width: auto;
+		padding: 50px !important;
+	}
+}
